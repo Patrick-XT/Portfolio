@@ -1,9 +1,10 @@
 .container-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .navbar-default {
-  padding: 30px 30px 0 30px;
+  padding: 30px 30px 0 80px;
   border: none;
   position: fixed;
   top: 0;
@@ -18,9 +19,51 @@
 .menu-nav a {
   padding: 10px;
 }
+.home-nav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 35px;
+  width: 2px;
+  height: 100%;
+  border-right: 1px solid #fff;
+}
+.home-nav {
+  border: 1px solid #fff;
+  width: 90px;
+  height: 11px;
+  padding: 9px 10px;
+  line-height: 11px;
+  margin-left: 15px !important;
+  position: relative;
+  text-indent: 35px;
+  background: url(../img/logo.png) no-repeat 10px 50%;
+}
+.home-nav a{
+box-sizing: border-box;
+}
 
-.home-nav h1 {
-  font-size: 18px;
-  border: 2px solid #fff;
-  padding: 1px 10px;
+.menu-nav a {
+  padding: 16px 0;
+  display: inline-block;
+  position: relative;
+}
+
+.menu-nav a:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: white;
+  margin-top: 4px;
+  transition: 0.4s;
+  position: absolute;
+}
+.menu-nav a:hover:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: white;
+  margin-top: 4px;
 }
