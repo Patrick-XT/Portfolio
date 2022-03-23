@@ -6,7 +6,7 @@ const cursorSpan = document.querySelector(".cursor");
 const textArray = ["Tenho 25 anos e moro no Rio de Janeiro.", "Sou formado em Engenharia Civil desde 2020.", "Gosto de estar sempre aprendendo algo novo.", "Estou atualmente me dedicando a aprender React."];
 const typingDelay = 90;
 const erasingDelay = 40;
-const newTextDelay = 2000; // Delay between current and next text
+const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 
