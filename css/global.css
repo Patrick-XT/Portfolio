@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+  font-family: "Source Sans Pro", Arial;
+  color: #111111;
+  line-height: 1.4285;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.gap10 {
+  gap: 10px;
+}
+.gap20 {
+  gap: 20px;
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+h2{
+  font-size: 30px;
+}
+.cinza{
+  color: #999;
+}
