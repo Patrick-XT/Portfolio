@@ -183,6 +183,7 @@ header::before {
    max-width: 300px;
    margin: 0 auto;
    margin-bottom: 30px;
+   padding-left: 0px;
   }
 .foto-pessoal h1{
   font-size: 21px;

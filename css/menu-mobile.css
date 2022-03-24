@@ -17,13 +17,15 @@
     align-items: center;
     position: relative;
     z-index: 20000;
+    transition: 0.7s;
+    animation: show-right 0.5s forwards;
   }
   [data-menu="button"]::before {
     content: "";
-    margin-right: 4px;
+    margin-right: 6px;
     display: inline-block;
     height: 2px;
-    width: 12px;
+    width: 15px;
     background: #fff;
     box-shadow: 0 4px #fff, 0 -4px #fff;
     transition: transform 0.3s;
@@ -40,7 +42,17 @@
     left: 0;
   }
   [data-menu="button"].active::before {
-    transform: rotate(90deg);
+    transform: rotate(-135deg);
+    box-shadow: none;
+  }
+  [data-menu="button"].active::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 15px;
+    background: #fff;
+    transform: rotate(135deg);
   }
   [data-menu="list"].active {
     display: block;
@@ -55,10 +67,10 @@
   .menu-nav a:hover:after {
     display: none;
   }
-  .menu-nav a:hover{
-    color:rgba(0, 0, 0, 0.8);
+  .menu-nav a:hover {
+    color: rgba(0, 0, 0, 0.8);
   }
-  .navbar-default{
+  .navbar-default {
     padding-left: 0px;
   }
 }

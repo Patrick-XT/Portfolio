@@ -553,6 +553,7 @@ skill-set__ratio {
   }
   .skill-set__list{
     width: 80%;
+    padding: 20px;
   }
   .skill-set__list li {
     max-width: 200px;
