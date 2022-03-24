@@ -1,16 +1,16 @@
 .habilidades-bg {
   background: #ecf1f4;
 }
-.container-habilidades{
+.container-habilidades {
   margin: 0 auto;
   max-width: 1000px;
   text-align: center;
   padding-top: 100px;
 }
-.container-habilidades h2{
+.container-habilidades h2 {
   font-size: 35px;
 }
-.container-habilidades p{
+.container-habilidades p {
   font-size: 25px;
   color: #666;
 }
@@ -29,22 +29,21 @@
   margin: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  max-width: 1000px;
+  max-width: 900px;
 }
 
 .skill-set__list {
   width: 47%;
   background: #fff;
   padding: 50px;
-  box-shadow: 0 0 10px -3px #333;;
+  box-shadow: 0 0 10px -3px #333;
 }
-.skill-set__list li{
+.skill-set__list li {
   padding-bottom: 50px;
 }
 
-
 .skill-set__item {
-/*     margin-top: 6.4rem; */
+  /*     margin-top: 6.4rem; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,7 +125,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -156,7 +162,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar1:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -187,7 +200,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar2:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -218,7 +238,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar3:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -248,7 +275,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar4:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -279,7 +313,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar5:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -309,7 +350,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar6:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -339,7 +387,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar7:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -369,7 +424,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar8:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -399,7 +461,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar9:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -429,7 +498,14 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar10:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#333), color-stop(42%, #222), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#333),
+    color-stop(42%, #222),
+    to(#000)
+  );
   background-image: -webkit-linear-gradient(left, #333, #222 42%, #000);
   background-image: -o-linear-gradient(left, #333, #222 42%, #000);
   background-image: linear-gradient(to right, #333, #222 42%, #000);
@@ -444,6 +520,84 @@ skill-set__ratio {
   border-radius: 10px;
   width: 50%;
 }
-.fa{
+.fa {
   font-size: 40px;
+}
+
+@media (max-width: 950px) {
+  .content {
+    flex-direction: column;
+    align-content: center;
+  }
+  .skill-set__list {
+    margin-bottom: 30px;
+  }
+  
+  .skill-set__list{
+    width: 80%;
+  }
+}
+@media (max-width: 480px){
+  .container-habilidades{
+    padding-top: 30px;
+    
+  }
+  .container-habilidades h2{
+    font-size: 1.8rem;
+  }
+  .container-habilidades p{
+    font-size: 1rem;
+  }
+  .content{
+    padding-top: 30px;
+  }
+  .skill-set__list{
+    width: 80%;
+  }
+  .skill-set__list li {
+    max-width: 200px;
+  }
+  .skill-set__icon i {
+    font-size: 30px;
+  }
+  .skill-set__detail {
+    margin-left: 20px;
+  }
+  .skill-set__name h4 {
+    font-size: 1rem;
+  }
+  .small-title {
+    font-size: 0.8rem;
+  }
+  .skill-set__bar1,
+  .skill-set__bar2,
+  .skill-set__bar3 {
+    max-width: 150px;
+  }
+}
+@media (max-width: 400px){
+  .skill-set__list{
+    width: 80%;
+  }
+  .skill-set__list li {
+    max-width: 150px;
+  }
+  .skill-set__icon i {
+    font-size: 20px;
+  }
+  .skill-set__detail {
+    margin-left: 10px;
+  }
+  .skill-set__name h4 {
+    font-size: 0.7rem;
+  }
+  .small-title {
+    font-size: 0.6rem;
+  }
+  .skill-set__bar1,
+  .skill-set__bar2,
+  .skill-set__bar3 {
+    max-width: 150px;
+  }
+
 }
