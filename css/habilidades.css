@@ -35,8 +35,9 @@
 .skill-set__list {
   width: 47%;
   background: #fff;
-  padding: 50px;
+  padding: 50px 50px 0px 50px;
   box-shadow: 0 0 10px -3px #333;
+ 
 }
 .skill-set__list li {
   padding-bottom: 50px;

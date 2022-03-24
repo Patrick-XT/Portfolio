@@ -7,6 +7,7 @@ const menuList = document.querySelector("[data-menu='list']");
 const eventos = ["click", "touchstart"];
 
 function openMenu(event) {
+  if(event.type === "touchstart") event.preventDefault()
   menuList.classList.add("active");
   menuButton.classList.add("active");
   outsiteClick(menuList, eventos, () => {
