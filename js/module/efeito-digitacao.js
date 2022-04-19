@@ -3,7 +3,7 @@ export default function initDigitacao() {}
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Tenho 25 anos e moro no Rio de Janeiro.", "Sou formado em Engenharia Civil desde 2020.", "Gosto de estar sempre aprendendo algo novo.", "Atualmente estou me dedicando a aprender React."];
+const textArray = ["Tenho 25 anos e moro no Rio de Janeiro.", "Sou formado em Engenharia Civil desde 2020.", "Desenvolvo pequenos projetos utilizando HTML, CSS e Javascript.", "Meu foco ao desenvolver projetos é buscar um design intuitivo.", "Atualmente estou me dedicando a aprender React."];
 const typingDelay = 90;
 const erasingDelay = 40;
 const newTextDelay = 1000; // Delay between current and next text

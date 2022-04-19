@@ -557,7 +557,7 @@ skill-set__ratio {
     padding: 20px;
   }
   .skill-set__list li {
-    max-width: 200px;
+    max-width: 250px;
   }
   .skill-set__icon i {
     font-size: 30px;
@@ -571,18 +571,14 @@ skill-set__ratio {
   .small-title {
     font-size: 0.8rem;
   }
-  .skill-set__bar1,
-  .skill-set__bar2,
-  .skill-set__bar3 {
-    max-width: 150px;
-  }
+ 
 }
 @media (max-width: 400px){
   .skill-set__list{
     width: 80%;
   }
   .skill-set__list li {
-    max-width: 150px;
+    max-width: 200px;
   }
   .skill-set__icon i {
     font-size: 20px;
