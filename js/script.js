@@ -14,7 +14,9 @@ slide.addControl('.custom-controls');
 import initDigitacao from "./module/efeito-digitacao.js";
 import initMenuFixo from "./module/menu-fixo.js";
 import initMenuMobile from "./module/menu-mobile.js";
+import initExp from "./module/experiencia.js";
 
+initExp()
 initDigitacao();
 initMenuFixo();
 initMenuMobile();
