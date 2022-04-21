@@ -1,5 +1,5 @@
 .wrap {
-    color: #000;
+    color: #333;
     font-size: 14px;
     line-height: 21px;
     max-width: 1200px;
@@ -129,7 +129,7 @@
   .i-is-active.p-timeline-content .timeline-content-image{width:59%;}
   .i-is-active.p-timeline-content .timeline-content-card, .i-is-active.p-timeline-content .timeline-content-image{float:left;}
   .i-is-active.p-timeline-content .timeline-content-image:after{clear:both;}
-  .i-is-active.bmw .p-timeline-block{background-color:#333;} 
+  .i-is-active.bmw .p-timeline-block{background-color:white;} 
   .i-is-active.mini .p-timeline-block{background-color:white;} 
   .i-is-active.p-timeline-item:hover{transform: none;}
   .i-is-active .p-timeline-item{transform:scale(1.1);}
@@ -221,7 +221,7 @@
 
 }
 .p-timeline-block{
-  background: #fff;
+  background: #333;
 }
 .preto{
   color: black !important;
