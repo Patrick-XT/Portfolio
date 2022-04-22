@@ -6,7 +6,7 @@
 font-size: 35px;
 color: white;
 text-align: center;
-padding-top: 150px;
+padding-top: 100px;
 }
 .texto-informa p{
   color: white;
@@ -32,7 +32,6 @@ padding-top: 150px;
   justify-content: center;
   align-items: center;
   background: #8d979b;;
-  font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
   align-content: start
 }
 
@@ -368,7 +367,6 @@ figcaption {
   left: 20px;
   color: hsla(0, 0%, 100%, .6);
   font-size: 16px;
-  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .info-add{
