@@ -33,9 +33,6 @@
         //If the content is not the selected (current) one
         $(content).not(current).removeClass(active);
 
-        //Scroll to shown content
-        var target= $(current);
-        $('html, body').stop().animate({ scrollTop: target.offset().top }, 1000);
       }
     });
   }
