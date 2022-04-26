@@ -1,0 +1,102 @@
+.titulo-contato {
+  text-align: center;
+  padding-top: 120px;
+}
+.titulo-contato h1 {
+  font-size: 35px;
+  color: #333;
+}
+.titulo-contato p {
+  font-size: 25px;
+  color: #8d979b;
+}
+.container-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 20px;
+  background-color: #333;
+  border-radius: 5px;
+  color: white;
+}
+.diplay-form {
+  display: grid;
+  padding: 25px;
+}
+.diplay-form label {
+  display: block;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.diplay-form input {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #f7f7f7;
+  padding: 12px;
+  border-radius: 5px;
+}
+.diplay-form textarea {
+  display: block;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.diplay-form button {
+  cursor: pointer;
+font-weight: bold;
+text-transform: uppercase;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+.diplay-form button:hover{
+  background: #8d979b;
+  color: #fff;
+}
+.lista-midia {
+  display: flex;
+  justify-content: end;
+}
+.lista-midia > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.botao-contato {
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 0;
+  color: #333;
+  padding: 10px 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.inform-contato {
+  text-align: end;
+  padding-right: 40px;
+ padding-top: 40px;
+  border-left: 1px solid #8d979b;
+}
+.inform-contato > div{
+  padding-bottom: 30px;
+}
+.diplay-form >div{
+  padding-bottom: 20px;
+}
+.mapa iframe{
+  height: 100%;
+}
+.fa-facebook-square:hover{
+  color: #3b5a9a;
+}
+.fa-instagram-square:hover{
+  color: #d74426;
+}
+.fa-linkedin:hover{
+  color: blue;
+}
+.fa-github-square:hover{
+  color: black;
+}
