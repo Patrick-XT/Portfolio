@@ -1,57 +1,25 @@
+export default function initExp() {}
+const tabMenu = document.querySelectorAll(".js-tabmenu li");
+const tabContent = document.querySelectorAll(".js-tabcontent section");
+tabContent[0].classList.add("ativo")
+tabMenu[0].classList.add("ativo")
 
- 
- export default function initExp(){
+function activeTab(index) {
+  tabContent.forEach((section) => {
+    section.classList.remove("ativo");
+  });
+  tabContent[index].classList.add("ativo");
+}
+function activeBorder(index) {
+  tabMenu.forEach((section) => {
+    section.classList.remove("ativo");
+  });
+  tabMenu[index].classList.add("ativo");
+}
 
-  }
-  //set up global variables for all functions to use
-  var item = '.timeline-item';
-  var content = '.p-timeline-content';
-  var active = 'i-is-active';
-  
-  //Handling events
-  $('.timeline-item').on('click', function(){ showTimelineContent(this); });
-  $('.close').on('click', function(){ closeCurrentContent(this); });
-
-  function showTimelineContent(element){
-    var itemId = $(element).find('.p-timeline-carmodel').attr('data-car');
-    var highlighted = $(element).find('.p-timeline-carmodel');
-
-    //Prevent having multiple items with the class i-is-active
-    if($(item).hasClass(active)){ $(item).removeClass(active); }
-  
-    //grab the id from the data attribute of each contentblock
-    $(content).each(function(){
-      var contentid = $(this).attr('data-car');
-
-      //check if timeline item id is equal to the content id
-      //If they're equal, show the content associated to that timeline item
-      if(itemId == contentid){
-        var current = $(content +'[data-car="'+contentid+'"]');
-        $(current).addClass(active);
-        $(element).addClass(active);
-
-        //If the content is not the selected (current) one
-        $(content).not(current).removeClass(active);
-
-      }
-    });
-  }
-
- function closeCurrentContent(event){
-    var contentblock = $(event).parents(content);
-    var contentid = $(contentblock).attr('data-car');
-    $(item).each(function(){
-      var itemId = $(this).find('.p-timeline-carmodel').attr('data-car');
-      
-      if(itemId == contentid){
-        //move page back to timeline
-        var target= $('.timeline-title');
-        $('html, body').stop().animate({ scrollTop: target.offset().top }, 1000);
-        
-        //remove class i-is-active from highlighted item 
-        var currentItem = $(this).removeClass(active);
-        contentblock.removeClass(active);
-
-      }
-    });
-  }
+tabMenu.forEach((itemMenu, index) => {
+  itemMenu.addEventListener("click", () => {
+    activeTab(index);
+    activeBorder(index)
+  })
+});

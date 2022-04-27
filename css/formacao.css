@@ -184,7 +184,7 @@
 }
 @media (max-width: 550px) {
   .formacao-container .subtitulo {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 350px) {
@@ -192,7 +192,7 @@
     font-size: 3rem;
   }
 }
-.curso h3{
+.curso h3 {
   font-size: 1.5em;
   padding-bottom: 30px;
 }
@@ -223,7 +223,48 @@
     max-height: 0;
   }
   to {
-    max-height: 250px;
+    max-height: 390px;
     opacity: 1;
+  }
+}
+@media (max-width: 1020px) {
+  .formacao-container {
+    display: block;
+    grid-template-columns: 1fr;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .subtitulo {
+    font-size: 4em !important;
+    word-break: keep-all;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .faculdade-lista {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 500px){
+  .js-accordion p{
+    font-size: 0.85rem;
+  }
+  .formacao-container{
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 3em !important;
+  }
+}
+@media (max-width: 350px){
+  .faculdade-lista {
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    font-size: 2em !important;
   }
 }
