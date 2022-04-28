@@ -17,6 +17,8 @@ import initMenuMobile from "./module/menu-mobile.js";
 import initExp from "./module/experiencia.js";
 import initAccordion from "./module/accordion.js"
 import initScrollSuave from "./module/scroll-suave.js"
+import initAnimaScroll from "./module/anima-scroll.js"
+
 
 
 
@@ -26,3 +28,7 @@ initMenuFixo();
 initMenuMobile();
 initAccordion();
 initScrollSuave();
+initAnimaScroll();
+
+// Animação
+new SimpleAnime()
