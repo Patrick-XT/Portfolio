@@ -1,5 +1,5 @@
-export default function initExp() {}
-const tabMenu = document.querySelectorAll(".js-tabmenu li");
+export default function initExp() {
+  const tabMenu = document.querySelectorAll(".js-tabmenu li");
 const tabContent = document.querySelectorAll(".js-tabcontent section");
 tabContent[0].classList.add("ativo")
 tabMenu[0].classList.add("ativo")
@@ -22,3 +22,5 @@ tabMenu.forEach((itemMenu, index) => {
     activeBorder(index)
   })
 });
+}
+initExp();
