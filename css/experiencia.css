@@ -39,14 +39,15 @@
   text-align: center;
   padding-top: 80px;
 }
-.animais-descricao {
+.exp-descricao {
   padding-left: 50px;
 }
-.animais-descricao h2 {
+.exp-descricao h2 {
   color: #333;
 }
-.animais-descricao p {
+.exp-descricao p {
   padding-bottom: 20px;
+  font-size: 1.3rem;
 }
 
 .js-tabcontent section {
@@ -87,9 +88,12 @@
   .sub-timeline-title {
     font-size: 20px;
   }
+  .exp-descricao p{
+    font-size: 1rem;
+  }
 }
 @media (max-width: 500px){
-  .animais-descricao {
+  .exp-descricao {
     padding-left: 10px;
   }
  .text-align-xp{
@@ -103,5 +107,17 @@
   }
 }
 .js-tabmenu li.ativo{
-  border: 5px solid #8d979b;
+  border: 5px solid black;
+}
+
+.azul-text{
+  color: blue;
+}
+.js-tabmenu li.ativo .text-foto{
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+.text-foto{
+  display: none;
 }

@@ -16,9 +16,13 @@ import initMenuFixo from "./module/menu-fixo.js";
 import initMenuMobile from "./module/menu-mobile.js";
 import initExp from "./module/experiencia.js";
 import initAccordion from "./module/accordion.js"
+import initScrollSuave from "./module/scroll-suave.js"
+
+
 
 initExp()
 initDigitacao();
 initMenuFixo();
 initMenuMobile();
 initAccordion();
+initScrollSuave();
