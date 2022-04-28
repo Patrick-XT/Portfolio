@@ -22,6 +22,10 @@ import initAnimaScroll from "./module/anima-scroll.js"
 
 
 
+
+
+
+
 initExp()
 initDigitacao();
 initMenuFixo();
@@ -29,6 +33,7 @@ initMenuMobile();
 initAccordion();
 initScrollSuave();
 initAnimaScroll();
+
 
 // Animação
 new SimpleAnime()
