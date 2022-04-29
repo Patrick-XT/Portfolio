@@ -64,7 +64,8 @@
   transition: 0.4s;
   position: absolute;
 }
-.menu-nav a:hover:after {
+.menu-nav a:hover:after,
+.menu-nav a.active::after {
   content: "";
   display: block;
   width: 100%;
@@ -84,10 +85,8 @@
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
   transition: 0.5s;
-
 }
 .js-scroll-animado.ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
-
 }

@@ -18,6 +18,8 @@ import initExp from "./module/experiencia.js";
 import initAccordion from "./module/accordion.js"
 import initScrollSuave from "./module/scroll-suave.js"
 import initAnimaScroll from "./module/anima-scroll.js"
+import initMenuAtivo from "./module/menu-ativo.js"
+
 
 
 
@@ -33,6 +35,7 @@ initMenuMobile();
 initAccordion();
 initScrollSuave();
 initAnimaScroll();
+initMenuAtivo();
 
 
 // Animação
