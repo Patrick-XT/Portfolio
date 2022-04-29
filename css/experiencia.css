@@ -76,7 +76,7 @@
 }
 @media (max-width: 840px) {
   .container-exp {
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 150px 1fr;
   }
 }
 
@@ -120,4 +120,18 @@
 }
 .text-foto{
   display: none;
+}
+
+@media (max-width: 1050px){
+  .container-exp{
+    margin: 10px;
+  }
+}
+@media (max-width: 400px){
+  .container-exp {
+    grid-template-columns: 100px 1fr;
+  }
+  .text-foto{
+    font-size: 0.7rem;
+  }
 }
